@@ -1,0 +1,38 @@
+
+
+<ion-content>
+
+<div class="body" align ="center"> 
+
+
+<div class="loginform">
+
+<h2 style ="color:white;font-weight:bold">Profile</h2>
+<br>
+<ion-input type ="text"  class="myinput" placeholder="Enter Your Name" [(ngModel)]="profile.name" style ="border-radius:20px;border-color:teal;border-style:inset"></ion-input>
+<br>
+<ion-input type ="text"  class="myinput" placeholder="Enter Your Surname" [(ngModel)]="profile.surname" style ="border-radius:20px;border-color:teal;border-style:inset"></ion-input>
+<br>
+
+<ion-input type ="text"  class="myinput"  placeholder={{carrier}} [(ngModel)]="profile.phoneNum" style ="border-radius:20px;border-color:teal;border-style:inset"></ion-input>
+
+<br>
+
+<ion-input type ="text"  class="myinput"  placeholder="Enter Street Adress" [(ngModel)]="profile.location" style ="border-radius:20px;border-color:teal;border-style:inset"></ion-input>
+
+<button (click)="confirmdetails(profile)" class="button1">Submit</button>
+      
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+</ion-content>

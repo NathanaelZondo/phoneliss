@@ -1,0 +1,66 @@
+.loginform{
+
+
+    height: 70%;
+    width: 70%;
+    margin: auto;
+    // box-shadow: 100%;
+    -webkit-box-shadow: 0px 0px 15px 8px #000000; 
+    box-shadow: 0px 0px 15px 8px #000000;
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 0) 50%, #00485a2a 50%); 
+    
+    
+    }
+    .myinput{
+        margin-top: 12%;
+        margin-left: 6%;
+        height: 8%;
+        width: 90%;
+        border: solid rgb(255, 255, 255);
+       background-color: #00485a;
+        color: rgb(255, 255, 255);
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    .button1{
+        margin-top: 12%;
+        margin-left: 6%;
+        height: 8%;
+        width: 90%;
+        border: outset rgb(133, 133, 133);
+        border-radius: 100px;
+        color: whitesmoke;
+    background-color:#00485a;
+    
+    }
+    h1{
+        text-align: center;
+        color: rgba(0, 0, 0, 0.822);
+        font-family: sans-serif;;
+    
+    }
+    .body{
+
+    display: flex;
+ 
+    background: linear-gradient(to bottom left, rgba(0, 0, 0, 0.473) 50%, #00485a7a 50%) ,url('https://images.pexels.com/photos/3785629/pexels-photo-3785629.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260'); 
+     height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    h6{
+        text-align: center;
+        color: #00485a;
+        font-family: 'Times New Roman', Times, serif;;
+    }
+    .create{
+     color: #00485a4d; 
+     text-align: center;
+        color: rgba(0, 0, 0, 0.822);
+        font-family: 'Times New Roman', Times, serif;;  
+    }
+    
+    

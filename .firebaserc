@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "shoplist-78ba5": {
+      "hosting": {
+        "app": [
+          "shoplist-78ba5"
+        ]
+      }
+    }
+  }
+}

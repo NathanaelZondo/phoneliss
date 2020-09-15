@@ -1,0 +1,45 @@
+
+
+<ion-toolbar>
+ 
+   <ion-buttons slot="primary">
+
+
+    <ion-button fill="solid"  style ="color:black"  (click)="close()" color ="none">
+     close
+    </ion-button>
+
+ 
+  </ion-buttons>
+</ion-toolbar>
+
+<ion-content>
+   <ion-item  *ngFor ="let item of data.grocerydata;let r = index">
+  <ion-button slot ="end" color ="danger" (click)="delitem(item,r)"><ion-icon name ="trash" ></ion-icon></ion-button>
+    <ion-label>
+    <h2>{{item.productName}}</h2>
+    <p>R{{item.price}}</p>
+  </ion-label>
+</ion-item>
+
+
+  <ion-fab  vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button [disabled]= "button1" (click)="pay()">
+      Pay
+    </ion-fab-button>
+
+   
+  </ion-fab>
+
+ 
+   
+
+<div style ="position:fixed;bottom:0;width:100vw;height:80px;background-color:#00485a;z-index:2;" align ="center">
+<br>
+<label style ="color:white">Delivery Total:{{delivery}}</label><br>
+<label style ="color:white">Items Total: R{{data.grocerytotal}}</label><br>
+<label style ="color:white">Items In List:{{data.grocerylength}}</label>
+</div>
+</ion-content> 
+
+ 
